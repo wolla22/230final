@@ -1,9 +1,3 @@
--- create the database
-CREATE DATABASE foodorderdb;
-
--- connect to the database
-CONNECT TO foodorderdb;
-
 CREATE TABLE `users` (
     `ID` int(10) AUTO_INCREMENT PRIMARY KEY,
     `name` varchar(32) NOT NULL,
